@@ -1,0 +1,38 @@
+
+.form-control{
+    width: 400px;
+}
+.form-outline{
+    margin-left: 390px;
+}
+
+
+.card-img-top:hover{
+    transform: scale(1.09);
+    transition: 200ms;
+}
+/* -------------------nav bar ----------------- */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.row2 {
+    margin-top:60px;
+}
+
+/* -------------------nav bar close ----------------- */
+
+
+
+/* --------------- footer icon--------------- */
+.bi-youtube{color: red;}
+.bi-twitter{color: rgb(84, 170, 227);}
+.bi-instagram{color:rgb(219, 51, 90);}
+.bi-envelope-fill{color: rgb(206, 184, 184);}
+
+/* --------------- footer icon close --------------- */ 
+
+
+

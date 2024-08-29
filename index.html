@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- =====================HEADER NAVBAR OPEN======================================= -->
+        <div class="row row1">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand ms-5" href="index.html"><img src="images/luxe vera.png.png" height="39px" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  m-auto mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link me-5" href="#About">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      
+                      
+                    </ul>
+                    <form class="d-flex me-4" role="search">
+                      <input class="form-controls me-4" type="search" placeholder="Search" aria-label="Search">
+                      <a href="notification.html"><i class="bi bi-bell me-3 mt-1" style="font-size: 24px; color: black;"></i></a>
+                      <a href="shoppingcart.html"><i class="bi bi-cart4" style="font-size: 26px;color: black;"></i></a>
+                      <a href="loginpage.html"><i class="bi bi-person-circle ms-3" style="font-size: 26px;color: black;"></i></a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        <!--================================== HEADER END---=================================--- -->
+        <div class="row row2 ">
+            <!-- ------------------------------SLIDER OPEN------------------ -->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/slider_1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/slider_2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/slider_3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- ---------------------------SLIDER COLSE---------------------- -->
+
+              <!-- -------------------------- start show pices (BAGS,Hoddies,googles)-------------------------- -->
+               <div class="row">
+                <div id="showp" class="col-12  col-sm-6 col-md-3 mt-3"><div class="card" style="width:100%;">
+                    <img src="images/blue bag.png" class="card-img-top" alt="...">
+                    <div class="card-body" >
+                      <p class="card-text ms-5 "><strong>BAGS</strong></p>
+                    </div>
+                  </div></div>
+                <div class="col-12 col-sm-6 col-md-3 mt-3"><div class="card" style="width: 100%;">
+                    <img src="images/red hoodies.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text ms-5"><strong>HOODIES</strong></p>
+                    </div>
+                  </div></div>
+                <div class="col-12  col-sm-6 col-md-3 mt-3"><div class="card" style="width:100%;">
+                    <img src="images/goggle.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text ms-5"><strong>GOGGLES</strong></p>
+                    </div>
+                  </div></div>
+                <div class="col-12 col-sm-6 col-md-3 mt-3"><div class="card" style="width: 100%;">
+                    <img src="images/shoes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text ms-5"><strong>SHOES</strong></p>
+                    </div>
+                  </div></div>
+               </div>
+
+             <!-- --------------- End show pices (BAGS,Hoddies,googles)--------------- -->
+
+               
+               <!-- ------------------------New arrivals & Button start------------------------ -->
+                <div class="row">
+                  <hr><hr>
+                  <div class="col-12 mt-5" style="text-align: center;"><h3><u>New Arrivals</u></h3>
+                     <div class="col-12 mt-4" >
+                      
+                      <button class="btn btn-light"  type="submit"><a href="#showp" style="color: black;">ALL</a></button>
+                      <button class="btn btn-light" type="submit"><a href="#girls" style="color: black;">WOMEN'S</a></button>
+                      <button class="btn btn-light" type="submit"><a href="#bags" style="color: black;">ACCESSORIES</a></button>
+                      <button class="btn btn-light" type="submit"><a href="#mens" style="color: black;">MEN'S</a></button>                     
+                     </div>
+                  </div>
+                </div>
+              <!-- ------------------------- NEW ARRIVALS & BUTTON CLOSE------------------------------ -->
+
+              <!-- --------------------------------PRODUCT START-------------------------------------- -->
+              <div id="mens" class="row">
+                <div class="col-12  col-sm-6 col-lg-3 mt-5 "><div class="card" style="width: 100%;">
+                  <img src="images/mens greeny shirt.jpg" class="card-img-top" alt="..." height="250">
+                  <div class="card-body">
+                    <p class="card-text"> <strong>&#8377;899</strong><br>
+                      <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                      IndoPrimo Men's Cotton Casual Regular Fit Green Checks Shirt for Men Full Sleeves - Harley</p>
+                      
+                  </div>
+                </div>
+              </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/blue checks shirt.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;577</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Blue Shirt Co Men Slim Fit Checkered Casual Shirt Lorem ipsum dolor sit amet.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/blue tshirt mens.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;377</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Lightblue hoodies text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/mens white shirt.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;999</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        White Shirt text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="girls" class="col-12 col-sm-6 col-lg-3  mt-5"><div class="card" style="width: 100%;">
+                  <img src="images/girls flowers tshirt.jpg.jpg" class="card-img-top" alt="..." width="100%" height="250">
+                  <div class="card-body">
+                    <p class="card-text"><strong>&#8377;399</strong><br>
+                      <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                      Flowers Top example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/girls grey top.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;499</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Grey Top example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/girls green shirt.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;899</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Green Shirt girl example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/product_7.png" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;455</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Blue hoodies text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="bags" class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/girl brown bag.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;1,099</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Brown Hand Bag example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/girls hand bag.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;977</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Lux Hand Bag example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/perfume(2).jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;799</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Black Purfume example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/perfume.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;990</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Gold Perfume text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/goggle.png" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;699</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Black Goggle example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img src="images/ring.jpg" class="card-img-top" alt="..." height="250">
+                    <div class="card-body">
+                      <p class="card-text"><strong>&#8377;1,999</strong><br>
+                        <input class="btn btn-secondary" type="button" value="ADD TO CART"><br>
+                        Ring text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-9 col-lg-6 mt-5">
+                  <img src="images/shark-new.jpg.webp" class="img-fluid" alt="...">
+                  
+                </div>
+              </div>
+              
+              <!-- ------------------------------PRODUCT END--------------------------------------------- -->
+              
+        </div>
+        <!-- ===================================== MAIN END ============================================ -->
+        <div id="About" class="row row3">
+            <div class="row mt-5" style="background-color: rgb(31, 30, 30); color:white; width: 100%;">
+              <div class="col-3 mt-3">
+                <dl>
+                  <dt><strong>SUPPORT</strong></dt><br>
+                  <dd>Contact Us</dd> <dd>Promotions & Sale</dd> <dd>Track Order</dd> <dd>Return / Exchange</dd><dd>Cookie Setting</dd>
+                </dl>
+              </div>
+              <div class="col-3 mt-3">
+                <dl>
+                  <dt><strong>ABOUT</strong></dt><br>
+                  <dd>Fashion Shows</dd><dd>Arts & Culture</dd><dd>latest News</dd><dd>Careers</dd>
+                </dl>
+              </div>
+              <div class="col-3 mt-3">
+                <dl>
+                  <dt><strong>SERVICE</strong></dt><br>
+                  <dd>Repairs</dd><dd>personalisation</dd><dd>Download Our Apps</dd>
+                </dl>
+              </div>
+              <div class="col-3 mt-3">
+               <dl>
+                <dt><strong>CONNECT</strong></dt> <br>
+                <dd>
+                  <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+                  <a href="https://x.com/?lang=en"><i class="bi bi-twitter ms-4"></i> </a>
+                 <a href="https://www.instagram.com/"> <i class="bi bi-instagram ms-3"></i></a> 
+                  <a href="https://www.facebook.com/login/"><i class="bi bi-facebook ms-3"></i></a>
+                  <a href="https://mail.google.com/mail/u/0/#inbox"><i class="bi bi-envelope-fill ms-3"></i></a>
+                </dd>
+               </dl>
+              </div>
+            </div>
+        </div>
+        <!-- ========================================FOOTER END====================================================-------- -->
+    </div>
+
+   
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
